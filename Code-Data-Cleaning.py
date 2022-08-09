@@ -158,11 +158,11 @@ df
 df.shape
 
 
-# In[20]:
+# In[31]:
 
 
 # cek ulang outlier dengan fungsi
-detect_outlier(df, 'SepalWidthCm')
+detect_outliers(df, 'SepalWidthCm')
 
 
 # In[21]:
